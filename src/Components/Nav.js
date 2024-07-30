@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 const Nav = () => {
   const items = useSelector((state)=>state.cart)
+  //
   return (
     <>
         <div style={{display:'flex', justifyContent:"space-between", alignItems:"center", marginBottom:"30px"}}>
