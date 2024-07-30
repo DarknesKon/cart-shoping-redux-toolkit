@@ -11,6 +11,7 @@ const Nav = () => {
                 <Link className="navLink " to="/" >Home</Link>
                 <Link className="navLink " to="/cart" >Cart</Link>
                 <span className='cartCount'>cart items : {items.length}</span>
+  //
             </div>
         </div>
     </>
